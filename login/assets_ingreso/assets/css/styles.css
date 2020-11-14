@@ -1,0 +1,54 @@
+body{
+background-image: url("../images/textura.png") !important;
+}
+.fondo-bottom{
+width:100%;
+height:100px;
+background-image: url('../images/people.png') !important;
+background-repeat: no-repeat;
+background-position: bottom; 
+}
+.logo img{
+margin:auto;
+}
+.boton-ingresar{
+background-color:#163c9b;
+}
+.form-control{
+background-color:red;
+}
+.titulo-principal{
+color:#36169b;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	background-color: #cddaf0;
+	border: 1px solid #163c9b;
+	border-radius:0px !important;
+	color:black ;
+	/*color: black #858585;*/
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 1.2;
+	padding: 5px 24px;
+	transition-duration: 0.1s;
+	box-shadow: none;
+    margin-bottom:3px;
+}
+
+body.login .box-login, body.login .box-forgot, body.login .box-register {
+	background: #FFFFFF;
+	border-radius: 9px;
+	box-shadow: -30px 30px 50px rgba(0, 0, 0, 0.32);
+	overflow: hidden;
+	padding: 40px;
+}
+
+.dd-item, .dd-empty, .dd-placeholder {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	min-height: 20px;
+	font-size: 13px;
+	line-height: 20px;
+}
