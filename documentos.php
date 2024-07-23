@@ -36,7 +36,7 @@ $result5 = $mysqli->query($sql5);
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Documentos | Municipalidad de Surquillo</title>
+	<title>Documentos | Municipalidad de Surquillo Demo</title>
 
 	<?php 
 	include ("referencias/ref_css.php");
